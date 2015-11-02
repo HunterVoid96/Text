@@ -12,4 +12,7 @@ function submitText() {
 
 function storeValue(key, value) {
 	//add some code to store the key-value pair in persistant storage 
+	var key = “pen”;
+var value = “blue”;
+window.localStorage.setItem( key, value );
 }
